@@ -1,4 +1,8 @@
-// First project, as you know, "Displya Hello World".
+//****************************************************************************
+// Program Functionality and Purpose
+// This is the first program I tested with c++<
+// I guess every programmer is familiar with the hello world output.
+//****************************************************************************
 
 #include <iostream>
 
