@@ -13,31 +13,29 @@ using namespace std;
 
 int main() {
 // Declare variables
-int a, b;
+    int a, b;
 
 //prompt user to enter two values.
-cout << "Please enter the Value for A: ";
-cin >> a;
-cin.clear();
-cout << endl;
+    cout << "Please enter the Value for A: ";
+    cin >> a;
+    cin.clear();
+    cout << endl;
 
-cout << "Please enter the Value for B: ";
-cin >> b;
-cin.clear();
-cout << endl;
+    cout << "Please enter the Value for B: ";
+    cin >> b;
+    cin.clear();
+    cout << endl;
 
 //Before swap
-cout << "The values for A: " << a << " and B: " << b  << " before swap." << endl;
-
+    cout << "The values for A: " << a << " and B: " << b << " before swap." << endl;
 
 //swapping values
-a = a + b;
-b = a - b;
-a = a -b;
+    a = a + b;
+    b = a - b;
+    a = a - b;
 
 //After swapping
-cout << "The values for A: " << a << " and B: " << b << " after swap." << endl;
+    cout << "The values for A: " << a << " and B: " << b << " after swap." << endl;
 
-
-return 0;
+    return 0;
 }
